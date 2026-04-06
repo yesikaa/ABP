@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulir Pendaftaran Praktikan</title>
+    <style>
+        body {
+            /* Menambahkan background sesuai tugas poin 2 */
+            background-image: url("file:///C:/Users/Yesika Widiyani/OneDrive/Pictures/Roblox/Dino.png"); 
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* CSS Styling poin 3 */
+            width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        table td { padding: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">Formulir Pendaftaran Praktikan</h2>
+        <form action="#" method="POST">
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>: <input type="text" name="nama" value="Yesika Widiyani"></td>
+                </tr>
+                <tr>
+                    <td>NIM</td>
+                    <td>: <input type="text" name="nim" value="2311102195"></td> </tr>
+                <tr>
+                    <td>Username</td>
+                    <td>: <input type="text" name="user" placeholder="Username"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>: <input type="password" name="pass"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>: <input type="email" name="email" placeholder="Input Email"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                        : <input type="radio" name="jk" value="Pria"> Pria 
+                        <input type="radio" name="jk" value="Wanita" checked> Wanita
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobi</td>
+                    <td>
+                        : <input type="checkbox" name="hobi[]" value="Renang"> Renang<br>
+                        &nbsp; <input type="checkbox" name="hobi[]" value="Bersepeda"> Bersepeda<br>
+                        &nbsp; <input type="checkbox" name="hobi[]" value="Memancing"> Memancing
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenjang Pendidikan</td>
+                    <td>
+                        : <select name="pendidikan">
+                            <option value="">-- Pilih --</option>
+                            <option value="D3">Tamat D3</option>
+                            <option value="S1">Tamat S1</option>
+                            <option value="S2">Tamat S2</option>
+                            <option value="S3">Tamat S3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kritik & Saran</td>
+                    <td>: <textarea name="saran" rows="4" cols="25"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: right;">
+                        <input type="reset" value="Cancel">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

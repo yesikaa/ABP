@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Formulir Data Mahasiswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .main-container {
+            max-width: 800px;
+            margin: auto;
+            background: rgb(255, 255, 255);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+        }
+        .exercise-label {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-right: 30px;
+            width: 150px; /* Atur lebar agar tulisan "Exercise" tidak mengganggu form */
+            text-align: right;
+        }
+        .form-container {
+            flex-grow: 1; /* Biarkan form mengambil ruang yang tersisa */
+        }
+        h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td {
+            padding: 8px;
+        }
+        .form-label {
+            width: 180px;
+            white-space: nowrap; /* Mencegah teks label putus baris */
+        }
+        .form-value {
+            padding-left: 10px;
+        }
+        input[type="text"],
+        input[type="date"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 6px;
+            box-sizing: border-box; /* Pastikan padding tidak membuat elemen melebihi lebar kontainer */
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        textarea {
+            resize: vertical; /* Hanya izinkan resize secara vertikal */
+        }
+        .btn-submit {
+            background-color: #e0e0e0;
+            color: black;
+            border: 1px solid #ccc;
+            padding: 5px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .btn-reset {
+            background-color: #e0e0e0;
+            color: black;
+            border: 1px solid #ccc;
+            padding: 5px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .inline-group label {
+            margin-right: 15px;
+        }
+        .checkbox-group label {
+            display: inline-block;
+            margin-right: 15px;
+            margin-bottom: 5px; /* Tambahkan sedikit jarak bawah */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="content-wrapper">
+            <div class="exercise-label">Exercise</div>
+
+            <div class="form-container">
+                <h2>Data Mahasiswa</h2>
+                <form action="#" method="POST">
+                    <table>
+                        <tr>
+                            <td class="form-label"><label for="nim_id">NIM</label></td>
+                            <td>:</td>
+                            <td class="form-value">
+                                <input type="text" name="nim_input" id="nim_id">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="form-label"><label for="nama_id">Nama</label></td>
+                            <td>:</td>
+                            <td class="form-value">
+                                <input type="text" name="nama_input" id="nama_id">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="form-label"><label for="tgl_lahir_id">Tgl Lahir (dd-mm-yyyy)</label></td>
+                            <td>:</td>
+                            <td class="form-value">
+                                <input type="date" name="tgl_lahir_input" id="tgl_lahir_id">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="form-label">Jenis Kelamin</td>
+                            <td>:</td>
+                            <td class="form-value inline-group">
+                                <input type="radio" name="jk_input" id="laki" value="Laki-Laki">
+                                <label for="laki">Laki-Laki</label>
+                                <input type="radio" name="jk_input" id="perempuan" value="Perempuan">
+                                <label for="perempuan">Perempuan</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="form-label" valign="top"><label for="alamat_id">Alamat di Bandung</label></td>
+                            <td valign="top">:</td>
+                            <td class="form-value">
+                                <textarea id="alamat_id" name="alamat_input" rows="4"></textarea>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="form-label"><label for="tinggal_id">Tinggal di</label></td>
+                            <td>:</td>
+                            <td class="form-value">
+                                <select name="tinggal_input" id="tinggal_id">
+                                    <option value="" selected>--pilih--</option>
+                                    <option value="Kos/kontrakan">Kos/kontrakan</option>
+                                    <option value="Rumah saudara">Rumah saudara</option>
+                                    <option value="Rumah orang tua">Rumah orang tua</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="form-label" valign="top">Pilih 2 hobi yang paling disukai</td>
+                            <td valign="top">:</td>
+                            <td class="form-value checkbox-group">
+                                <input type="checkbox" name="hobi_input[]" id="science" value="Science">
+                                <label for="science">Science</label><br>
+                                <input type="checkbox" name="hobi_input[]" id="technology" value="Technology">
+                                <label for="technology">Technology</label><br>
+                                <input type="checkbox" name="hobi_input[]" id="art" value="Art">
+                                <label for="art">Art</label><br>
+                                <input type="checkbox" name="hobi_input[]" id="sport" value="Sport">
+                                <label for="sport">Sport</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="3" align="left">
+                                <input type="submit" value="Submit" class="btn-submit">
+                                <input type="reset" value="Reset" class="btn-reset">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Latihan Colors CSS</title>
+    <style>
+        body {
+            /* Mengatur warna latar belakang menggunakan format HSL */
+            background-color: hsl(20, 40%, 70%);
+            color: orange; /* Mengatur warna teks utama menjadi oranye */
+        }
+        #teks {
+            /* Mengatur warna teks spesifik menggunakan format Hex Blue */
+            color: #2F3CDF;
+        }
+        input.text-field {
+            background-color: rgba(32, 55, 122, 0.5);
+            border: 1px solid #000;
+            padding: 10px;
+            height: auto; /* Biarkan tinggi menyesuaikan konten */
+            width: auto;
+            display: inline-block; /* Memastikan elemen merespon padding dengan benar */
+            box-sizing: border-box; /* Biar padding nggak nambah lebar/tinggi elemen secara berlebih */
+        }
+    </style>
+</head>
+<body>
+    <h1>Warna Body Orange</h1>
+    <p id="teks">Praktikum Webpro dengan warna Hex Blue.</p>
+    <input type="text" class="text-field" value="Input dengan RGBA Opacity">
+</body>
+</html>

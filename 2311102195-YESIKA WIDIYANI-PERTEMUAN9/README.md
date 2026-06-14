@@ -61,32 +61,7 @@ Tema data pada aplikasi ini menggunakan simulasi layanan cuci sepatu. Data layan
 
 ---
 
-# 4. Struktur Project
-
-```text
-2311102195-YESIKA WIDIYANI-MODUL-4-5-FLUTTER
-├── android
-├── images
-│   ├── container-stack-grid.png
-│   ├── list-separated.png
-│   └── liststatis-builder.png
-├── ios
-├── lib
-│   └── main.dart
-├── linux
-├── macos
-├── test
-│   └── widget_test.dart
-├── web
-├── windows
-├── pubspec.yaml
-├── README.md
-└── LAPORAN_PRAKTIKUM.md
-```
-
----
-
-# 5. Source Code Utama
+# 4. Source Code Utama
 
 File utama aplikasi terdapat pada:
 
@@ -98,108 +73,46 @@ Kode pada file tersebut berisi `PraktikumModulApp`, `TugasScreen`, dan `JudulSec
 
 ---
 
-# 6. Penjelasan Widget
+# 5. Penjelasan Widget
 
-## 6.1 Container
+## 5.1 Container
 
 `Container` digunakan untuk membuat kotak berwarna dengan ukuran, warna, dan radius tertentu. Pada aplikasi ini, `Container` digunakan untuk menampilkan kotak berwarna biru keabu-abuan dengan teks di bagian tengah.
 
-## 6.2 Stack
+## 5.2 Stack
 
 `Stack` digunakan untuk menyusun beberapa widget secara bertumpuk. Pada aplikasi ini, `Stack` digunakan untuk membuat tampilan kotak abu-abu sebagai latar belakang, kotak biru sebagai objek di tengah, dan teks di atas kotak tersebut.
 
-## 6.3 GridView
+## 5.3 GridView
 
 `GridView.count` digunakan untuk menampilkan enam item dalam bentuk grid. Setiap item ditampilkan sebagai kotak berwarna hijau kebiruan dengan teks `Grid 1` sampai `Grid 6`.
 
-## 6.4 ListView Statis
+## 5.4 ListView Statis
 
 `ListView` digunakan untuk menampilkan tiga data statis, yaitu item A, B, dan C. Setiap data ditampilkan menggunakan `ListTile` dengan `CircleAvatar` di bagian kiri.
 
-## 6.5 ListView.builder
+## 5.5 ListView.builder
 
 `ListView.builder` digunakan untuk menampilkan data dari array. Pada aplikasi ini, data yang ditampilkan berupa layanan cuci sepatu, seperti `Deep Clean`, `Fast Clean`, `Unyellowing`, dan `Leather Care`.
 
-## 6.6 ListView.separated
+## 5.6 ListView.separated
 
 `ListView.separated` digunakan untuk menampilkan daftar data dengan garis pembatas antar item. Pada aplikasi ini, data yang ditampilkan berupa status pesanan, yaitu `Menunggu Pembayaran`, `Sedang Dicuci`, dan `Siap Diambil`.
 
 ---
 
-# 7. Output Program
+# 6. Output Program
 
-## 7.1 Tampilan Container, Stack, dan GridView
+## 6.1 Tampilan Container, Stack, dan GridView
 
 ![Output Container, Stack, dan GridView](images/container-stack-grid.png)
 
-## 7.2 Tampilan ListView.builder dan ListView.separated
+## 6.2 Tampilan ListView.builder dan ListView.separated
 
 ![Output ListView Separated](images/list-separated.png)
 
-## 7.3 Tampilan ListView Statis dan ListView.builder
+## 6.3 Tampilan ListView Statis dan ListView.builder
 
 ![Output ListView Statis dan Builder](images/liststatis-builder.png)
 
 ---
-
-# 8. Cara Menjalankan Project
-
-Pastikan Flutter sudah terpasang di laptop. Cek dengan perintah berikut:
-
-```bash
-flutter --version
-```
-
-Setelah itu jalankan langkah berikut:
-
-```bash
-flutter pub get
-flutter run
-```
-
-Jika ingin menjalankan di browser Chrome:
-
-```bash
-flutter run -d chrome
-```
-
-Jika ingin melihat daftar perangkat yang tersedia:
-
-```bash
-flutter devices
-```
-
-Jika ingin mengecek masalah konfigurasi Flutter:
-
-```bash
-flutter doctor
-```
-
----
-
-# 9. Langkah Masukkan ke Git
-
-Jalankan perintah berikut dari folder utama repository Git, misalnya folder `ABP`:
-
-```bash
-git status
-git add "2311102195-YESIKA WIDIYANI-MODUL-4-5-FLUTTER/"
-git status
-git commit -m "Menambahkan tugas Flutter Modul 4 dan 5 Yesika"
-git push origin master
-```
-
-Jika push ditolak karena repository GitHub lebih baru, jalankan:
-
-```bash
-git pull --rebase origin master
-git push origin master
-```
-
-Catatan: jangan menggunakan `git add .` jika masih ada folder lain yang belum jelas statusnya, karena file lain bisa ikut masuk ke commit.
-
----
-
-# 10. Kesimpulan
-
-Berdasarkan praktikum yang telah dilakukan, aplikasi Flutter berhasil dibuat untuk menampilkan beberapa widget antarmuka pengguna. Widget `Container`, `Stack`, `GridView`, `ListView`, `ListView.builder`, dan `ListView.separated` dapat digunakan untuk membangun tampilan aplikasi yang lebih terstruktur. Penggunaan `SingleChildScrollView` juga membantu tampilan agar tetap dapat diakses dengan baik saat konten melebihi ukuran layar.

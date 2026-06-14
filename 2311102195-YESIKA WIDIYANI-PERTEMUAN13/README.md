@@ -73,4 +73,9 @@ Pada file tersebut terdapat beberapa bagian utama:
 5. `FloatingActionButton`, digunakan untuk menambah nilai counter dan memunculkan notifikasi.
 
 ---
-kepada pengguna.
+## 5. SS
+<img width="619" height="935" alt="image" src="https://github.com/user-attachments/assets/ce211f8c-72a3-42d7-814e-c4f97b118a6d" />
+<img width="615" height="932" alt="image" src="https://github.com/user-attachments/assets/e35f2834-ab87-43e9-8180-b8674e4aa586" />
+<img width="620" height="936" alt="image" src="https://github.com/user-attachments/assets/5143e2a9-56c9-48bc-852f-c0452308eaf9" />
+<img width="624" height="933" alt="image" src="https://github.com/user-attachments/assets/941eb43d-2100-48a6-9239-3e43af2bf9d9" />
+

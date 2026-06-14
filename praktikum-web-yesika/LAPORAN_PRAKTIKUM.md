@@ -6,12 +6,6 @@
 <br>
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Logo_Telkom_University_potrait.png" width="260" alt="Logo Telkom University">
-</p>
-
-<br>
-
-<p align="center">
   Disusun oleh:
 </p>
 

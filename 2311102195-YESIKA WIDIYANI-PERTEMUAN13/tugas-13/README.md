@@ -75,4 +75,8 @@ Pada file tersebut terdapat beberapa bagian utama:
 ---
 
 ## 5. Output Aplikasi
-bahwa Provider dapat membantu pengelolaan state aplikasi menjadi lebih terstruktur, sedangkan local notification dapat digunakan untuk memberikan informasi langsung kepada pengguna.
+<img width="623" height="938" alt="image" src="https://github.com/user-attachments/assets/b2940545-0e44-4736-83e7-b2661e6e0fcd" />
+<img width="622" height="937" alt="image" src="https://github.com/user-attachments/assets/b2fdf361-8697-4da8-ae03-b16dec67034c" />
+<img width="624" height="936" alt="image" src="https://github.com/user-attachments/assets/898c0618-88b9-4073-a24c-7eedc7ffea47" />
+<img width="624" height="933" alt="image" src="https://github.com/user-attachments/assets/7ef32ac6-1aab-492d-9a7a-4a716e7a8135" />
+

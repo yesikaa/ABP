@@ -427,6 +427,11 @@ Future<void> popupAlert(
 ---
 
 ## 7. Screenshot Hasil Tampilan
-
-
+<img width="644" height="1039" alt="image" src="https://github.com/user-attachments/assets/0cfca1dc-9bf8-448a-a1c6-dc992f852ce6" />
+<img width="648" height="1037" alt="image" src="https://github.com/user-attachments/assets/903e97ad-6354-49ce-a20d-b2839d953d6f" />
+<img width="645" height="1040" alt="image" src="https://github.com/user-attachments/assets/baebf184-ffcd-4b7d-b2a3-efbf94642d66" />
+<img width="646" height="1041" alt="image" src="https://github.com/user-attachments/assets/015b76db-3d5b-4d8f-a026-74eb1322798a" />
+<img width="648" height="1039" alt="image" src="https://github.com/user-attachments/assets/a5447906-ec53-4705-89d3-6311a3001cbf" />
+<img width="643" height="1034" alt="image" src="https://github.com/user-attachments/assets/b356e5e0-a243-4a28-b8dd-5a20c2227eb8" />
+<img width="633" height="1032" alt="image" src="https://github.com/user-attachments/assets/99c9c44f-fe8d-4909-a6c6-0daf386596d5" />
 ---

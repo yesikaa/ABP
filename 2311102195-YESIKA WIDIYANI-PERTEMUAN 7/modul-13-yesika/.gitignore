@@ -1,0 +1,17 @@
+# Dependency folders
+vendor/
+node_modules/
+
+# Laravel environment
+.env
+*.log
+
+# Local database files
+database/*.sqlite
+*/database/*.sqlite
+
+# Build/cache
+public/build/
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*

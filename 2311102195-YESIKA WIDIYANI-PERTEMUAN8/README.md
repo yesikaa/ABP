@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img width="240" alt="Logo Telkom University" src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Logo_Telkom_University_potrait.png">
+<img width="250" alt="Logo Telkom University" src="https://github.com/user-attachments/assets/22ae9b17-5e73-48a6-b5dd-281e6c70613e">
 
 <br><br>
 
@@ -23,30 +23,6 @@ Dosen Pengampu:
 **2026**
 
 </div>
-
----
-
-## Daftar Project
-
-Repository ini berisi project Pertemuan 8 dengan dua bagian utama:
-
-1. `modul-12-yesika`  
-   Project Laravel CRUD produk. Fitur utama yang dibuat adalah menampilkan data produk, menambah produk, mengedit produk, dan menghapus produk.
-
-2. `modul-13-yesika`  
-   Project Laravel lanjutan yang berisi penerapan autentikasi, middleware, session, dan relasi database. Di dalamnya terdapat project `laravel-modul13` dan `tugas-8`.
-
----
-
-## Identitas Praktikan
-
-| Keterangan | Isi |
-|---|---|
-| Nama | Yesika Widiyani |
-| NIM | 2311102195 |
-| Kelas | S1 IF-11-04 |
-| Mata Kuliah | Aplikasi Berbasis Platform |
-| Pertemuan | 8 |
 
 ---
 
@@ -90,136 +66,3 @@ Akun login yang digunakan untuk project `laravel-modul13`:
 Email    : yesika@example.com
 Password : password123
 ```
-
----
-
-## Cara Menjalankan Modul 12
-
-Masuk ke folder `modul-12-yesika`:
-
-```bash
-cd "2311102195-YESIKA WIDIYANI-PERTEMUAN8/modul-12-yesika"
-```
-
-Jalankan perintah berikut:
-
-```bash
-composer install
-Copy-Item .env.example .env
-php artisan key:generate
-php artisan migrate:fresh --seed
-php artisan serve
-```
-
-Buka browser:
-
-```text
-http://127.0.0.1:8000
-```
-
-Kalau menggunakan Git Bash dan perintah `Copy-Item` tidak bisa, gunakan:
-
-```bash
-cp .env.example .env
-```
-
----
-
-## Cara Menjalankan Modul 13 - Project `laravel-modul13`
-
-Masuk ke folder project:
-
-```bash
-cd "2311102195-YESIKA WIDIYANI-PERTEMUAN8/modul-13-yesika/laravel-modul13"
-```
-
-Jalankan perintah berikut:
-
-```bash
-composer install
-Copy-Item .env.example .env
-php artisan key:generate
-php artisan migrate:fresh --seed
-php artisan serve --port=8001
-```
-
-Buka browser:
-
-```text
-http://127.0.0.1:8001
-```
-
-Login menggunakan:
-
-```text
-Email    : yesika@example.com
-Password : password123
-```
-
----
-
-## Cara Menjalankan Modul 13 - Project `tugas-8`
-
-Masuk ke folder project:
-
-```bash
-cd "2311102195-YESIKA WIDIYANI-PERTEMUAN8/modul-13-yesika/tugas-8"
-```
-
-Jalankan instalasi awal:
-
-```bash
-composer install
-npm install
-Copy-Item .env.example .env
-php artisan key:generate
-php artisan migrate:fresh --seed
-```
-
-Jalankan Laravel di terminal pertama:
-
-```bash
-php artisan serve --port=8002
-```
-
-Jalankan Vite di terminal kedua:
-
-```bash
-npm run dev
-```
-
-Buka browser:
-
-```text
-http://127.0.0.1:8002
-```
-
----
-
-## Langkah Memasukkan ke Git
-
-Pastikan folder `2311102195-YESIKA WIDIYANI-PERTEMUAN8` berada di dalam folder repository utama, misalnya `ABP`. Setelah itu buka terminal di folder `ABP`, bukan di dalam folder project.
-
-Jalankan perintah berikut:
-
-```bash
-git status
-git add "2311102195-YESIKA WIDIYANI-PERTEMUAN8/"
-git status
-git commit -m "Menambahkan Pertemuan 8 Yesika"
-git push origin master
-```
-
-Jika repository menggunakan branch `main`, gunakan:
-
-```bash
-git push origin main
-```
-
-Jangan menggunakan `git add .` jika masih ada folder lain yang statusnya belum jelas, karena folder lain bisa ikut masuk commit.
-
----
-
-## Kesimpulan
-
-Berdasarkan praktikum yang telah dilakukan, Laravel dapat digunakan untuk membangun aplikasi CRUD produk secara terstruktur melalui route, controller, model, migration, dan blade view. Selain itu, Laravel juga mendukung penerapan autentikasi, middleware, session, dan relasi database sehingga aplikasi dapat dibuat lebih aman dan terorganisir.

@@ -1,0 +1,9 @@
+{
+  "name": "Tugas 9 Layout 2",
+  "short_name": "Tugas9",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7367F0",
+  "description": "Tugas 9 Layout 2 Flutter"
+}

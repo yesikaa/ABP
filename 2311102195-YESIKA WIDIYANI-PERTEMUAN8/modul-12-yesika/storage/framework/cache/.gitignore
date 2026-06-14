@@ -1,0 +1,8 @@
+*
+!data/
+!.gitignore
+
+/vendor
+/node_modules
+/.env
+/database/*.sqlite
